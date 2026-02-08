@@ -221,8 +221,7 @@ backend/
 | POST | `/boards/:boardId/cards/:cardId/tasks` | Tạo task mới |
 | PUT | `/boards/:boardId/cards/:cardId/tasks/:taskId` | Cập nhật task |
 | DELETE | `/boards/:boardId/cards/:cardId/tasks/:taskId` | Xóa task |
-
----
+```
 
 ## Cấu Hình Frontend
 
@@ -239,7 +238,7 @@ VITE_FIREBASE_STORAGE_BUCKET=your-project-id.appspot.com
 VITE_FIREBASE_MESSAGING_SENDER_ID=your-sender-id
 VITE_FIREBASE_APP_ID=your-app-id
 VITE_FIREBASE_DATABASE_URL=https://your-project-id.firebaseio.com
-````
+```
 
 **Ghi chú:** Lấy các giá trị từ [Firebase Console → Project Settings → General](#bước-5-lấy-firebase-config-cho-frontend). Các giá trị `your-*` sẽ thay bằng thông tin Firebase project của bạn.
 
