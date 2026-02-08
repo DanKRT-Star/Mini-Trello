@@ -164,7 +164,6 @@ FRONTEND_URL=http://localhost:5173
 ### Cấu Trúc Backend
 
 ```
-
 backend/
 ├── src/
 │ ├── server.js # Entry point
@@ -196,11 +195,10 @@ backend/
 │ └── helper.js # Utilities
 ├── package.json
 └── .env (IGNORED - not in repo)
-
-````
+```
 
 ### API Endpoints Chính
-
+```
 | Method | Endpoint | Mô tả |
 |--------|----------|-------|
 | POST | `/auth/signup` | Đăng ký |
