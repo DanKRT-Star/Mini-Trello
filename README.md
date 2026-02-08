@@ -154,8 +154,6 @@ GITHUB_CALLBACK_URL=http://localhost:5173/github/callback
 FRONTEND_URL=http://localhost:5173
 ````
 
-```
-
 **Lưu ý quan trọng:**
 - `serviceAccountKey.json` phải có sẵn (từ Firebase Setup)
 - `JWT_SECRET`: Tạo string ngẫu nhiên dài 32+ ký tự
